@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 1. Clone the repository:
     ``` bash
-    git clone https://github.com/coms-w3132/final-project-channyeinzin.git
+    git clone https://github.com/channyeinzin/Perfume-Recommendation-Engine-.git
     ```
 2. Navigate to the Project Directory: Open a terminal or command prompt, and change your directory to the root directory of the project:
     ``` bash
