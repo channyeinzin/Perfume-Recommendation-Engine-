@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: perfume recommendation small package
+Author: NOEL ZIN
+Author-email: channyeinzin.fl@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# COMS W3132 Individual Project
+
+## Author
+Chan Nyein Zin
+
+## Project Title
+Perfume Recommendation System Using Machine Learning!
+
+## Project Description
+The Perfume Recommendation System is designed to simplify the exploration of fragrances for the user by rating. Leveraging Python 3.7+ and machine learning technologies, this platform utilizes Pandas and NumPy for data manipulation, Matplotlib for visual analytics, and Beautiful webscrapping from venbafragrance website . The system uses collaborative and content-based filtering techniques to aid both novices and perfume enthusiasts in discovering scents that match with the best rating preferences, enhancing the overall user experience.
+
+
+## Timeline
+
+*To track progress on the project, we will use the following intermediate milestones for your overall project. Each milestone will be marked with a tag in the git repository, and we will check progress and provide feedback at key milestones.*
+
+| Date               | Milestone                                                                                              | Deliverables                | Git tag    |
+|--------------------|--------------------------------------------------------------------------------------------------------|-----------------------------|------------|
+| **March&nbsp;29**  | Submit project description                                                                             | README.md                   | proposal   |
+| **April&nbsp;5**   | Update project scope/direction based on instructor/TA feedback                                         | README.md                   | approved   |
+| **April&nbsp;12**  | Basic project structure with empty functions/classes (incomplete implementation), architecture diagram | Source code, comments, docs | milestone1 |
+| **April&nbsp;19**  | Progress on implementation (define your own goals)                                                     | Source code, unit tests     | milestone2 |
+| **April&nbsp;26**  | Completely (or partially) finished implementation                                                      | Source code, documentation  | milestone3 |
+| **May&nbsp;10**    | Final touches (conclusion, documentation, testing, etc.)                                               | Conclusion (README.md)      | conclusion |
+
+*The column Deliverables lists deliverable suggestions, but you can choose your own, depending on the type of your project.*
+
+## Requirements, Features and User Stories
+**Hardware:**
+
+A standard computer with internet access, capable of running Python and handling moderate computational tasks.
+
+**Software:**
+
+Python 3.7+: Main programming language used for backend development.
+Jupyter Notebook: Utilized for interactive development and testing, particularly useful for experimenting with data manipulation and visualization scripts.
+
+## Technical Specification
+
+- **Data Handling**: Python with Pandas and NumPy for managing and analyzing data.
+- **Machine Learning**: Collaborative and content-based filtering methods for generating recommendations.
+- **Visualization**: Matplotlib for creating visual insights into the dataset and results.
+
+**Libraries and Frameworks:**
+
+- **Streamlit**: Used to create the user interface and deploy the interactive web application, allowing users to interactively explore perfume recommendations.
+- **Pandas**: Employs its data structures and tools for efficient data manipulation and analysis, crucial for handling the perfume dataset.
+- **Pickle**: Utilized for loading and saving pre-processed data and model state, ensuring that data persistence is managed efficiently.
+- **os**: Provides functionalities to interact with the file system, ensuring robust file operations like checking for file existence.
+- **scikit-learn (cosine_similarity)**: Facilitates the calculation of similarity scores between various perfumes based on their characteristics, supporting the recommendation logic in the backend.
+
+
+## System or Software Architecture Diagram
+*Include a block-based diagram illustrating the architecture of your software or system. This should include major components, such as user interface elements, back-end services, and data storage, and show how they interact. Tools like Lucidchart, Draw.io, or even hand-drawn diagrams photographed and uploaded are acceptable. The purpose of the diagram is to help us understand the architecture of your solution. Diagram asthetics do not matter and will not be graded.*
+
+## Development Methodology
+*Describe the methodology you'll use to organize and progress your work.*
+
+- *GitHub Projects Board: To track progress on tasks and milestones.*
+- *GitHub Issues: To keep track of issues or problems encountered during development.*
+- *Git Branches and Pull Requests: For collaborative development and code review processes.*
+- *GitHub Actions: For automated testing or deployment pipelines.*
+- *GitHub Wiki: For documentation and notes related to the projects*
+
+*Regarding testing and evaluation, I plan to utilize both manual and automated testing approaches. Manual testing will involve interactive exploration of the web application to ensure usability and functionality. Additionally, I will implement unit tests using the unittest framework to validate individual components of the system.*
+
+## Potential Challenges and Roadblocks
+*Potential challenges and roadblocks we anticipate include:*
+- *Data Quality: Ensuring the quality and completeness of the perfume dataset.*
+- *Algorithm Optimization: Fine-tuning the recommendation algorithms for better accuracy and performance.*
+- *Web Scraping: Handling website changes and updates that may affect data extraction.*
+- *Deployment: Ensuring smooth deployment of the web application, considering potential compatibility issues with different environments.*
+
+
+## Additional Resources
+- *Streamlit Documentation: https://docs.streamlit.io/*
+- *Pandas Documentation: https://pandas.pydata.org/docs/*
+- *Scikit-learn Documentation: https://scikit-learn.org/stable/*
+- *Beautif: https://realpython.com/beautiful-soup-web-scraper-python/*
+
+## Conclusion and Future Work
+In conclusion, this project aims to deliver a robust and user-friendly perfume recommendation system. Future enhancements may include expanding the dataset, integrating real-time user feedback, and exploring more advanced machine learning models to improve recommendation accuracy.
+
+
+**Installation:**
+Install the necessary dependencies with the following command:
+```bash
+pip install -r requirements.txt
+```
+
+## How to Run
+
+1. Clone the repository
+``` bash
+    https://github.com/coms-w3132/final-project-channyeinzin.git
+```
+2. Navigate to the Project Directory: Open a terminal or command prompt, and change your directory to the root directory of the project:
+``` bash
+    cd <project_directory>
+```
+
+3. Install Dependencies: Before running the application, install the required dependencies by executing:
+```
+    pip install -r requirements.txt
+```
+4. Run the Application: Once the dependencies are installed, you can run the Streamlit application by executing:
+```
+    streamlit run app.py
+```
+
+## How to Use
+
+1. Type or choose from the Drop Down bar
+2. After choosing click on "Show Recommendations"
