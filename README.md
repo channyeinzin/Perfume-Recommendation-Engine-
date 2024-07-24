@@ -76,8 +76,9 @@ pip install -r requirements.txt
 2. After choosing, click on "Show Recommendations".
 
 ## Demo
-
+Link: https://perfumerecommendation.streamlit.app/
 ![Demo Screenshot1](/src/img/src.gif)
+
 
 ---
 
